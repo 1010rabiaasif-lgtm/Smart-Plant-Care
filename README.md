@@ -51,11 +51,9 @@ Arduino (sensors) → Firebase Realtime Database → React Native App → Push N
 
 ---
 
-## Screenshots
-
 ### Splash Screen
 
-![Splash Screen](screenshots/splash.jpeg)
+![Splash Screen](ScreenShots/SplashScreen.png)
 
 App landing screen with the Smart Plant Care logo and tagline.
 
@@ -63,7 +61,7 @@ App landing screen with the Smart Plant Care logo and tagline.
 
 ### Sign In
 
-![Sign In](screenshots/signin.jpeg)
+![Sign In](ScreenShots/LoginScreen.png)
 
 Secure login screen powered by Firebase Authentication.
 
@@ -71,44 +69,45 @@ Secure login screen powered by Firebase Authentication.
 
 ### Home
 
-![Home](screenshots/home.jpeg)
+![Home](ScreenShots/HomeScreen.png)
 
-Main dashboard showing the three core modules — Indoor Plants, Outdoor Plants, and Analysis Report — with a quick summary of available actions for each.
+Main dashboard showing the three core modules — **Indoor Plants**, **Outdoor Plants**, and **Analysis Report** — with a quick summary of available actions for each.
 
 <br>
 
 ### Categories
 
-![Categories](screenshots/categories.jpeg)
+![Categories](ScreenShots/CategoriesScreen.png)
 
-Plant categorization screen supporting Indoor, Outdoor, Seasonal, Fruit, and Vegetable plant types.
+Plant categorization screen supporting **Indoor, Outdoor, Seasonal, Fruit, and Vegetable** plant types.
 
 <br>
 
-### Indoor Plants
+### Read Plant
 
-![Indoor Plants](screenshots/indoor-plants.jpeg)
+![Read Plant](ScreenShots/ReadPlantScreen.png)
 
-Lists all added indoor plants with unique IDs, allowing users to monitor and manage each plant individually.
+Displays detailed information about a selected plant, including its name, category, watering schedule, and care instructions.
 
 <br>
 
 ### Notifications
 
-![Notifications](screenshots/notifications.jpeg)
+![Notifications](ScreenShots/NotificationScreen.png)
 
-Real-time automated alerts triggered by sensor data — notifying the user when it's time to water or heat a plant, with automatic action if no response within 3 minutes.
+Real-time automated alerts triggered by sensor data, notifying users when watering or heating is required.
 
 <br>
 
 ### Analysis Report
 
-![Analysis Report](screenshots/analysis-report.jpeg)
+![Analysis Report](ScreenShots/AnalysisReportScreen.png)
 
-Daily, weekly, and monthly breakdown of watering, sprinkling, and heating durations — a unique feature not available in existing plant care reminder apps.
+Provides daily, weekly, and monthly insights into watering, sprinkling, and heating activities, helping users monitor plant care performance over time.
 
 <br>
 
+---
 ---
 
 ## Getting Started
