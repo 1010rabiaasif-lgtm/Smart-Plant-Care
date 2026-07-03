@@ -11,8 +11,8 @@ Smart Plant Care replaces reminder-only plant care apps with real sensor-driven 
 ## Demo Video
 
 ▶️ Application Working:https://drive.google.com/file/d/18Uzqt_LboNuaEWIIA-XlWhO1prudm2D3/view?usp=sharing
-▶️ IndoorPrototype:https://drive.google.com/file/d/1oI2E7gGnw5mutjMu7y5DV0gcXS_NHafr/view?usp=sharing
-▶️ OutdoorPrototype:https://drive.google.com/file/d/1gqTOqDB86cckG9rwSk3mLDb5vtcdUOuj/view?usp=sharing
+▶️IndoorPrototype:https://drive.google.com/file/d/1oI2E7gGnw5mutjMu7y5DV0gcXS_NHafr/view?usp=sharing
+▶️OutdoorPrototype:https://drive.google.com/file/d/1gqTOqDB86cckG9rwSk3mLDb5vtcdUOuj/view?usp=sharing
 
 > The physical prototype was submitted to the university as part of the FYP requirement. The demo videos above shows the complete system working — sensors detecting conditions, Firebase receiving real-time data, and the app triggering automated plant care actions.
 
