@@ -8,13 +8,15 @@ Smart Plant Care replaces reminder-only plant care apps with real sensor-driven 
 
 ---
 
-## Demo Video
+## Demo Videos
 
-▶️ Application Working:https://drive.google.com/file/d/18Uzqt_LboNuaEWIIA-XlWhO1prudm2D3/view?usp=sharing
-IndoorPrototype:https://drive.google.com/file/d/1oI2E7gGnw5mutjMu7y5DV0gcXS_NHafr/view?usp=sharing
-OutdoorPrototype:https://drive.google.com/file/d/1gqTOqDB86cckG9rwSk3mLDb5vtcdUOuj/view?usp=sharing
+> The physical prototype was submitted to the university as part of the FYP requirement. The videos below show the complete system working — sensors detecting conditions, Firebase receiving real-time data, and the app triggering automated plant care actions.
 
-> The physical prototype was submitted to the university as part of the FYP requirement. The demo videos above shows the complete system working — sensors detecting conditions, Firebase receiving real-time data, and the app triggering automated plant care actions.
+▶️ [Application Working](https://drive.google.com/file/d/18Uzqt_LboNuaEWIIA-XlWhO1prudm2D3/view?usp=sharing) — full app running with live sensor data
+
+▶️ [Indoor Prototype](https://drive.google.com/file/d/1oI2E7gGnw5mutjMu7y5DV0gcXS_NHafr/view?usp=sharing) — indoor plant IoT automation in action
+
+▶️ [Outdoor Prototype](https://drive.google.com/file/d/1gqTOqDB86cckG9rwSk3mLDb5vtcdUOuj/view?usp=sharing) — outdoor plant IoT automation in action
 
 ---
 
@@ -51,9 +53,11 @@ Arduino (sensors) → Firebase Realtime Database → React Native App → Push N
 
 ---
 
+## Screenshots
+
 ### Splash Screen
 
-![Splash Screen](ScreenShots/SplashScreen.png)
+![Splash Screen](ScreenShots/splash.jpeg)
 
 App landing screen with the Smart Plant Care logo and tagline.
 
@@ -61,7 +65,7 @@ App landing screen with the Smart Plant Care logo and tagline.
 
 ### Sign In
 
-![Sign In](ScreenShots/LoginScreen.png)
+![Sign In](ScreenShots/signin.jpeg)
 
 Secure login screen powered by Firebase Authentication.
 
@@ -69,45 +73,44 @@ Secure login screen powered by Firebase Authentication.
 
 ### Home
 
-![Home](ScreenShots/HomeScreen.png)
+![Home](ScreenShots/home.jpeg)
 
-Main dashboard showing the three core modules — **Indoor Plants**, **Outdoor Plants**, and **Analysis Report** — with a quick summary of available actions for each.
+Main dashboard showing the three core modules — Indoor Plants, Outdoor Plants, and Analysis Report — with a quick summary of available actions for each.
 
 <br>
 
 ### Categories
 
-![Categories](ScreenShots/CategoriesScreen.png)
+![Categories](ScreenShots/categories.jpeg)
 
-Plant categorization screen supporting **Indoor, Outdoor, Seasonal, Fruit, and Vegetable** plant types.
+Plant categorization screen supporting Indoor, Outdoor, Seasonal, Fruit, and Vegetable plant types.
 
 <br>
 
-### Read Plant
+### Indoor Plants
 
-![Read Plant](ScreenShots/ReadPlantScreen.png)
+![Indoor Plants](ScreenShots/indoor-plants.jpeg)
 
-Displays detailed information about a selected plant, including its name, category, watering schedule, and care instructions.
+Lists all added indoor plants with unique IDs, allowing users to monitor and manage each plant individually.
 
 <br>
 
 ### Notifications
 
-![Notifications](ScreenShots/NotificationScreen.png)
+![Notifications](ScreenShots/notifications.jpeg)
 
-Real-time automated alerts triggered by sensor data, notifying users when watering or heating is required.
+Real-time automated alerts triggered by sensor data — notifying the user when it's time to water or heat a plant, with automatic action if no response within 3 minutes.
 
 <br>
 
 ### Analysis Report
 
-![Analysis Report](ScreenShots/AnalysisReportScreen.png)
+![Analysis Report](ScreenShots/analysis-report.jpeg)
 
-Provides daily, weekly, and monthly insights into watering, sprinkling, and heating activities, helping users monitor plant care performance over time.
+Daily, weekly, and monthly breakdown of watering, sprinkling, and heating durations — a unique feature not available in existing plant care reminder apps.
 
 <br>
 
----
 ---
 
 ## Getting Started
@@ -133,6 +136,13 @@ To run the app locally, you will need your own Firebase project and configuratio
 > **Note:** This project was built with Expo SDK 46. You may need a compatible Expo Go version or a local development build to run it.
 
 ---
+
+## Author
+
+**Rabia Asif**
+React Native Developer
+[1010rabiaasif@gmail.com](mailto:1010rabiaasif@gmail.com)
+[GitHub](https://github.com/1010rabiaasif-lgtm)
 
 ## Author
 
