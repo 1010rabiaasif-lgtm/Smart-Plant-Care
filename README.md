@@ -57,7 +57,7 @@ Arduino (sensors) → Firebase Realtime Database → React Native App → Push N
 
 ### Splash Screen
 
-![Splash Screen](ScreenShots/splash.jpeg)
+![Splash Screen](ScreenShots/SplashScreen.png)
 
 App landing screen with the Smart Plant Care logo and tagline.
 
@@ -65,7 +65,7 @@ App landing screen with the Smart Plant Care logo and tagline.
 
 ### Sign In
 
-![Sign In](ScreenShots/signin.jpeg)
+![Sign In](ScreenShots/LoginScreen.png)
 
 Secure login screen powered by Firebase Authentication.
 
@@ -73,7 +73,7 @@ Secure login screen powered by Firebase Authentication.
 
 ### Home
 
-![Home](ScreenShots/home.jpeg)
+![Home](ScreenShots/HomeScreen.png)
 
 Main dashboard showing the three core modules — Indoor Plants, Outdoor Plants, and Analysis Report — with a quick summary of available actions for each.
 
@@ -81,7 +81,7 @@ Main dashboard showing the three core modules — Indoor Plants, Outdoor Plants,
 
 ### Categories
 
-![Categories](ScreenShots/categories.jpeg)
+![Categories](ScreenShots/CategoriesScreen.png)
 
 Plant categorization screen supporting Indoor, Outdoor, Seasonal, Fruit, and Vegetable plant types.
 
@@ -89,7 +89,7 @@ Plant categorization screen supporting Indoor, Outdoor, Seasonal, Fruit, and Veg
 
 ### Indoor Plants
 
-![Indoor Plants](ScreenShots/indoor-plants.jpeg)
+![Indoor Plants](ScreenShots/ReadPlantScreen.png)
 
 Lists all added indoor plants with unique IDs, allowing users to monitor and manage each plant individually.
 
@@ -97,7 +97,7 @@ Lists all added indoor plants with unique IDs, allowing users to monitor and man
 
 ### Notifications
 
-![Notifications](ScreenShots/notifications.jpeg)
+![Notifications](ScreenShots/NotificationScreen.png)
 
 Real-time automated alerts triggered by sensor data — notifying the user when it's time to water or heat a plant, with automatic action if no response within 3 minutes.
 
@@ -105,7 +105,7 @@ Real-time automated alerts triggered by sensor data — notifying the user when 
 
 ### Analysis Report
 
-![Analysis Report](ScreenShots/analysis-report.jpeg)
+![Analysis Report](ScreenShots/AnalysisReportScreen.png)
 
 Daily, weekly, and monthly breakdown of watering, sprinkling, and heating durations — a unique feature not available in existing plant care reminder apps.
 
@@ -136,13 +136,6 @@ To run the app locally, you will need your own Firebase project and configuratio
 > **Note:** This project was built with Expo SDK 46. You may need a compatible Expo Go version or a local development build to run it.
 
 ---
-
-## Author
-
-**Rabia Asif**
-React Native Developer
-[1010rabiaasif@gmail.com](mailto:1010rabiaasif@gmail.com)
-[GitHub](https://github.com/1010rabiaasif-lgtm)
 
 ## Author
 
